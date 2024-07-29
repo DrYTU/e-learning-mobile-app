@@ -1,0 +1,45 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@babel/helpers": "^7.25.0",
+    "@clerk/clerk-expo": "^1.2.7",
+    "@clerk/clerk-js": "^5.10.2",
+    "@emotion/react": "^11.13.0",
+    "@expo/metro-runtime": "~3.2.1",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "@types/react": "~18.2.79",
+    "expo": "^51.0.22",
+    "expo-app-loading": "^2.1.1",
+    "expo-font": "~12.0.9",
+    "expo-linking": "~6.3.1",
+    "expo-router": "~3.5.18",
+    "expo-status-bar": "~1.12.1",
+    "expo-web-browser": "~13.0.3",
+    "graphql": "15.8.0",
+    "graphql-request": "^6.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "^0.74.3",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-gesture-handler": "^2.17.1",
+    "react-native-render-html": "^6.3.4",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "3.31.1",
+    "react-native-web": "~0.19.10",
+    "typescript": "~5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
